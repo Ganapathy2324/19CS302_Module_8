@@ -106,5 +106,6 @@ int main() {
 ```
 # OUTPUT
 ![image](https://github.com/user-attachments/assets/f850e729-f017-4c35-bec2-8db9df389cab)
-
+# Result:
+Thus the program was executed and the output was verified successfully.
 
