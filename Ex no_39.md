@@ -14,47 +14,24 @@ To write a C program to find sum of digits.
 
 ## Program:
 ```
-#include <stdio.h>
-int main() {
- int num;
- printf("Enter a
-number (0-9): ");
- scanf("%d", &num);
- switch (num) {
- case 0:
-printf("Zero\n"); break;
- case 1:
-printf("One\n"); break;
- case 2:
-printf("Two\n"); break;
- case 3:
-printf("Three\n");
-break;
- case 4:
-printf("Four\n"); break;
- case 5:
-printf("Five\n"); break;
- case 6:
-printf("Six\n"); break;
- case 7:
-printf("Seven\n");
-break;
- case 8
-printf("Eight\n");
-break;
- case 9:
-printf("Nine\n"); break;
- default:
-printf("Invalid
-number!\n"); break;
- }
- return 0;
+#include<stdio.h>
+int main()
+{
+    int a,s,i,y=0;
+    scanf("%d",&a);
+    for(i=1;i<=5;i++)
+    {
+        s=a%10;
+        y=y+s;
+        a=a/10;
+    }
+    printf("%d",y);
 }
 ```
-
 ## Output:
 
-![image](https://github.com/user-attachments/assets/45ff765f-fb86-4f48-b24e-382139769182)
+![image](https://github.com/user-attachments/assets/e61587a1-a6b9-45e8-873e-8cc198ab63b8)
+
 
 
 ## Result:
